@@ -1,15 +1,55 @@
-# ("🌳")  "💰"
+import random
 
-row1 = ["🌳", "🌳", "🌳"]
-row2 = ["🌳", "🌳", "🌳"]
-row3 = ["🌳", "🌳", "🌳"]
-print("Welcome to the treasure map")
-print(f"{row1}\n{row2}\n{row3}")
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
 
-position = input("Mark the coordinates of your treasure : ")
-x_axis = int(position[0])
-y_axis = int(position[1])
-full_map = [row1, row2, row3]
-selected_row = full_map[x_axis-1]
-selected_row[y_axis-1] = "💰"
-print(f"{row1}\n{row2}\n{row3}")
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+icons = [rock, paper, scissors]
+player = int(input("choose your weapon: 1 for Rock, 2 for paper, 3 for scissors : \n"))
+computer = random.randint(0,3)
+player_image = icons[player-1]
+computer_image = icons[computer-1]
+if player == computer:
+    print(f"you chose {player} \n {player_image}")
+    print(f"the computer chose {computer}\n {computer_image}")
+    print("its a draw")
+elif player == 1 and computer == 3:
+    print(f"you chose {player}\n {player_image}")
+    print(f"the computer chose {computer}\n {computer_image}")
+    print("you win")
+elif player == 3 and computer == 2:
+    print(f"you chose {player}\n {player_image}")
+    print(f"the computer chose {computer}\n {computer_image}")
+    print("you win")
+elif player == 2 and computer == 1:
+    print(f"you chose {player}\n {player_image}")
+    print(f"the computer chose {computer}\n {computer_image}")
+    print("you win")
+else:
+    print(f"you chose {player}\n {player_image}")
+    print(f"the computer chose {computer}\n {computer_image}")
+    print("you loose")
+
