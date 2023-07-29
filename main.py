@@ -1,11 +1,15 @@
-import random
+# ("🌳")  "💰"
 
-# Split string method
-names_string = input("Give me everybody's names, separated by a comma. ")
-names = names_string.split(", ")
+row1 = ["🌳", "🌳", "🌳"]
+row2 = ["🌳", "🌳", "🌳"]
+row3 = ["🌳", "🌳", "🌳"]
+print("Welcome to the treasure map")
+print(f"{row1}\n{row2}\n{row3}")
 
-all_names = len(names)
-randomize = random.randint(0, all_names-1)
-person = names[randomize]
-print(f"lucky sponsor of today is {person}")
-# Angela, Ben, Jenny, Michael, Chloe
+position = input("Mark the coordinates of your treasure : ")
+x_axis = int(position[0])
+y_axis = int(position[1])
+full_map = [row1, row2, row3]
+selected_row = full_map[x_axis-1]
+selected_row[y_axis-1] = "💰"
+print(f"{row1}\n{row2}\n{row3}")
