@@ -1,35 +1,47 @@
-# Instructions
-# You are going to write a program that automatically prints the solution to the FizzBuzz game.
-# Your program should print each number from 1 to 100 in turn.
-# When the number is divisible by 3 then instead of printing the number it should print "Fizz".
-# When the number is divisible by 5, then instead of printing the number it should print "Buzz".`
-#   And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz
+#Password Generator Project
+import random
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-# if num is divisible by 3 print Fizz
-# if num is divisible by 5 print Buzz
-# if by both then FizzBuzz
+print("Welcome to the PyPassword Generator!")
+nr_letters= int(input("How many letters would you like in your password?\n"))
 
-# total = [0]
-# for numbers in range(1,101):
-#     total.append(numbers)
-#     if numbers % 3 == 0 and numbers % 5 == 0:
-#         total[numbers] = "FizzBuzz"
-#     elif numbers % 3 == 0:
-#         total[numbers] = "Fizz"
-#     elif numbers % 5 == 0:
-#         total[numbers] = "Buzz"
-# print(total)
+nr_symbols = int(input(f"How many symbols would you like?\n"))
 
-# Angela's way
-for numbers in range(1,101):
-    if numbers % 3 == 0 and numbers % 5 == 0:
-        print("FizzBuzz")
-    elif numbers % 3 == 0:
-        print("Fizz")
-    elif numbers % 5 == 0:
-        print("Buzz")
-    else:
-        print(numbers)
+nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+#Eazy Level - Order not randomised:
+#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
+# password = ""
+# for char in range(1, nr_letters+1):
+#     password += random.choice(letters)
+# for symb in range(1,nr_symbols+1):
+#     password += random.choice(symbols)
+# for nums in range(1, nr_numbers+1):
+#     password += random.choice(numbers)
+# print(password)
+#Hard Level - Order of characters randomised:
+#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+password = []
+for char in range(1, nr_letters+1):
+    password += random.choice(letters)
+for symb in range(1,nr_symbols+1):
+    password += random.choice(symbols)
+for nums in range(1, nr_numbers+1):
+    password += random.choice(numbers)
+    random.shuffle(password)
+random_password = ""
+for char in password:
+    random_password += char
+print(random_password)
+
+
+
+
+
+
+
 
 
 
