@@ -1,14 +1,7 @@
+# for number in range(1, 11, 3):
+#     print(number)
 
-
-
-students_scores = [78, 65, 89, 86, 55, 91, 64, 89]
-high = 0
-for score in students_scores:
-    if high < score:
-        high = score
-print(high)
-
-
-
-
-
+total = 0
+for numbers in range(1,101):
+    total += numbers
+print(total)
