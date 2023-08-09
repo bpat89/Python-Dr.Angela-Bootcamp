@@ -1,21 +1,32 @@
-programming_dictionary = {
-    "Bug": "An error in a program that prevents the program from running as expected.",
-    "Function": "A piece of code that you can easily call over and over again.",
+student_scores = {
+    "Harry": 81,
+    "Ron": 78,
+    "Hermione": 99,
+    "Draco": 74,
+    "Neville": 62,
 }
-# Retrieving the dictionary.
-# print(programming_dictionary["Bug"])
-# Adding new items to the dictionary.
-programming_dictionary["Loop"] = "The action of doing something over and over again."
+# 🚨 Don't change the code above 👆
 
-# Creating an empty dictionary.
-empty_dictionary = {}
-# Wipe an existing dictionary.
-# programming_dictionary = {}
-# print(programming_dictionary)
-# Edit an item in a dictionary
-# programming_dictionary["Bug"] = "some new information"
-# print(programming_dictionary)
-# Looping throught the dictionary
-for key in programming_dictionary:
-    print(key)
-    print(programming_dictionary[key])
+# TODO-1: Create an empty dictionary called student_grades.
+student_grades = {
+
+}
+# TODO-2: Write your code below to add the grades to student_grades.👇
+# This is the scoring criteria:
+# Scores 91 - 100: Grade = "Outstanding"
+# Scores 81 - 90: Grade = "Exceeds Expectations"
+# Scores 71 - 80: Grade = "Acceptable"
+# Scores 70 or lower: Grade = "Fail"
+for name in student_scores:
+    marks = student_scores[name]
+    if marks > 90:
+        student_grades[name] = "Outstanding"
+    elif marks > 80:
+        student_grades[name] = "Exceeds Expectations"
+    elif marks > 70:
+        student_grades[name] = "Acceptable"
+    else:
+        student_grades[name] = "Fail"
+
+# 🚨 Don't change the code below 👇
+print(student_grades)
