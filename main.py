@@ -1,32 +1,38 @@
-student_scores = {
-    "Harry": 81,
-    "Ron": 78,
-    "Hermione": 99,
-    "Draco": 74,
-    "Neville": 62,
+###################################################################################################
+# Nesting
+capitals = {
+    "France" : "Paris",
+    "Germany" : "Berlin",
 }
-# 🚨 Don't change the code above 👆
-
-# TODO-1: Create an empty dictionary called student_grades.
-student_grades = {
-
+# Nesting a List in a Dictionary
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Berlin", "Frankfurt", "Hamburg"],
 }
-# TODO-2: Write your code below to add the grades to student_grades.👇
-# This is the scoring criteria:
-# Scores 91 - 100: Grade = "Outstanding"
-# Scores 81 - 90: Grade = "Exceeds Expectations"
-# Scores 71 - 80: Grade = "Acceptable"
-# Scores 70 or lower: Grade = "Fail"
-for name in student_scores:
-    marks = student_scores[name]
-    if marks > 90:
-        student_grades[name] = "Outstanding"
-    elif marks > 80:
-        student_grades[name] = "Exceeds Expectations"
-    elif marks > 70:
-        student_grades[name] = "Acceptable"
-    else:
-        student_grades[name] = "Fail"
+# print(travel_log)
+# Dictionary inside a Dictionary
+# travel_log = {
+#     "France": {"cities_visited": ["Paris", "Lille", "Dijon"]},
+#     "Germany": ["Berlin", "Frankfurt", "Hamburg"],
+# }
+# print(travel_log)
+# travel_log = {
+#     "France": {"cities_visited": ["Paris", "Lille", "Dijon"],"total_visits":12},
+#     "Germany": {"cities_visited": ["Berlin", "Frankfurt", "Hamburg"], "total_visits":20},
+# }
+# print(travel_log)
+# Nesting Dictionary in a List
+travel_log = [
+    {
+        "Country": "France",
+        "cities_visited": ["Paris","Lille","Dijon"],
+        "total_visits": 13
+    },
+    {
+        "Country": "Germany",
+        "cities_visited": ["Frankfurt","Berlin","Hamburg"],
+        "total_visits": 7,
+    }
+    ]
+print(travel_log)
 
-# 🚨 Don't change the code below 👇
-print(student_grades)
