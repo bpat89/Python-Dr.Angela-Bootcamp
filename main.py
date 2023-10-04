@@ -1,8 +1,8 @@
-# Functions with Outputs
+def formated_name(f_name, l_name):
+  if f_name == "" or l_name == "":
+    return "you didn't provide a valid input"
+  formated_fname = f_name.title()
+  formated_lname = l_name.title()
+  return f"{formated_fname} {formated_lname}"
 
-def format_names(f_name, l_name):
-    conv_fname = f_name.title()
-    conv_lname = l_name.title()
-    return f"{conv_fname} {conv_lname}"
-full_string = format_names("universe", "is always creative")
-print(full_string)
+print(formated_name(input("Please enter your first name: "),input("Please enter your last name: ")))
