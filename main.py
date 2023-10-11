@@ -1,38 +1,26 @@
-def format_name(f_name, l_name):
-    """ Takes the first and last name and converts into title case version of the name"""
-    if f_name == "" or l_name == "":
-        return "You didn't provide a value"
-    format_fname = f_name.title()
-    format_lname = l_name.title()
-    return f"{format_fname} {format_lname}"
+# Calculator
+def add(n1, n2):
+    return n1 + n2
 
-print(format_name(input("First Name : "), input("Last Name: ")))
+def subtract(n1, n2):
+    return n1 - n2
 
-"""" Now if you call the function format_name(),
- as soon as you bring the arrow into the parenthesis you will see the description of the function""""
+def multiply(n1, n2):
+    return n1 * n2
 
+def divide(n1, n2):
+    return n1 / n2
+# created dictionary and stored in the variable named operations
+operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide
+}
+num1 = int(input("What's your first number? : \n"))
+num2 = int(input("What's your second number? : \n"))
+for symbol in operations:
+    print(symbol)
+operating_symbol = input("Pick a symbol from the lines above \n")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(operations.(operating_symbol)(num1,num2))
