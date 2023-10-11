@@ -1,8 +1,24 @@
-def formated_name(f_name, l_name):
-  if f_name == "" or l_name == "":
-    return "you didn't provide a valid input"
-  formated_fname = f_name.title()
-  formated_lname = l_name.title()
-  return f"{formated_fname} {formated_lname}"
 
-print(formated_name(input("Please enter your first name: "),input("Please enter your last name: ")))
+
+def is_leap(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+
+def days_in_month(year, month):
+    month_days = [31,28,31,30,31,30,31,31,30,31,30,31]
+    if month == 2 and is_leap(year):
+        return 29
+    else:
+        return month_days[month-1]
+year = int(input())
+month = int(input())
+days = days_in_month(year, month)
+print(days)
