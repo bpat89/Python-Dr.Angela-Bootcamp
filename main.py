@@ -18,9 +18,16 @@ operations = {
     "/": divide
 }
 num1 = int(input("What's your first number? : \n"))
-num2 = int(input("What's your second number? : \n"))
 for symbol in operations:
     print(symbol)
 operating_symbol = input("Pick a symbol from the lines above \n")
+num2 = int(input("What's your second number? : \n"))
+# calling the function from the dictionary
+operation = operations[operating_symbol]
+# giving values for n1 and n2 to the callout function
+answer = operation(num1,num2)
+print(f"{num1} {operating_symbol} {num2} = {answer}")
 
-print(operations.(operating_symbol)(num1,num2))
+
+# print(f"{num1} {operating_symbol} {num2} = {answer}")
+
