@@ -25,9 +25,19 @@ num2 = int(input("What's your second number? : \n"))
 # calling the function from the dictionary
 operation = operations[operating_symbol]
 # giving values for n1 and n2 to the callout function
-answer = operation(num1,num2)
-print(f"{num1} {operating_symbol} {num2} = {answer}")
+first_answer = operation(num1,num2)
+print(f"{num1} {operating_symbol} {num2} = {first_answer}")
+operating_symbol = input("Pick a symbol from the lines above \n")
+num3 = int(input("What's your second number? : \n"))
+operation = operations[operating_symbol]
+second_answer = operation(first_answer,num3)
+
+print(second_answer)
+
+print(f"{first_answer} {operating_symbol} {num3} = {second_answer}")
 
 
-# print(f"{num1} {operating_symbol} {num2} = {answer}")
+
+
+
 
