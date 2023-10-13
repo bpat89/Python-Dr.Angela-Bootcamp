@@ -1,4 +1,5 @@
 # calculator
+import art
 
 
 
@@ -18,13 +19,14 @@ operating_symbols = {
     "/": divide
 }
 def calculator():
-    num1 = int(input("please enter you first number \n"))
+    print(art.logo)
+    num1 = float(input("please enter you first number \n"))
     for symbols in operating_symbols:
         print(symbols)
     to_continue = True
     while to_continue:
         operation = input("please select the operator \n ")
-        num2 = int(input("please enter the next number \n"))
+        num2 = float(input("please enter the next number \n"))
         function = operating_symbols[operation]
         answer = function(num1,num2)
         print(f"{num1} {operation} {num2} = {answer}")
