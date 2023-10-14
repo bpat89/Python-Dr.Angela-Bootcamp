@@ -59,6 +59,8 @@
 #
 # Hint 14: Ask the user if they want to restart the game. If they answer yes, clear the console and start a new game of blackjack and show the logo from art.py.
 import random
+from os import system, name
+import art
 def deal_card():
     """Returns a random card from the deck """
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -73,22 +75,60 @@ def calculate_score(cards):
         cards.append(1)
     return sum(cards)
 
-user_cards = []
-computer_cards = []
-is_game_over = False
-for _ in range(2):
-    user_cards.append(deal_card())
-    computer_cards.append(deal_card())
-while not is_game_over:
-    user_score = calculate_score(user_cards)
-    computer_score = calculate_score(computer_cards)
-    print(f"your cards are {user_cards} and your score is {user_score}. ")
-    print(f"computer's first card is {computer_cards[0]} ")
-
-    if user_score == 0 or computer_score == 0 or user_score > 21:
-        is_game_over = True
+def compare(user_score, computer_score):
+    if user_score == computer_score:
+        return "Draw"
+    elif computer_score == 0:
+        return "Lose, the opponent has Blackjack"
+    elif user_score == 0:
+        return "Win with a Blackjack"
+    elif user_score < 21:
+        return "you went over, you lose"
+    elif computer_score > 21:
+        return "the opponent went over, you win"
+    elif user_score > computer_score:
+        return "you win"
     else:
-        if input("Would you like to draw another card ? ") == "y":
-            user_cards.append(deal_card())
-        else:
+        return "you lose"
+def play_game():
+    print(art.logo)
+
+    user_cards = []
+    computer_cards = []
+    is_game_over = False
+    for _ in range(2):
+        user_cards.append(deal_card())
+        computer_cards.append(deal_card())
+    while not is_game_over:
+        user_score = calculate_score(user_cards)
+        computer_score = calculate_score(computer_cards)
+        print(f"your cards are {user_cards} and your score is {user_score}. ")
+        print(f"computer's first card is {computer_cards[0]} ")
+
+        if user_score == 0 or computer_score == 0 or user_score > 21:
             is_game_over = True
+        else:
+            if input("Would you like to draw another card ? ") == "y":
+                user_cards.append(deal_card())
+            else:
+                is_game_over = True
+        while computer_score != 0 and computer_score < 17:
+            computer_cards.append(deal_card())
+            computer_score = calculate_score(computer_cards)
+        print(f" Your final hand: {user_cards}, final score:{user_score}")
+        print(f" Computer's final hand: {computer_cards}, final score:{computer_score}")
+        print (compare(user_score, computer_score))
+while input(" Do you want to play a game of Blackjack. Type y or n : \n") == "y":
+    def clear():
+        # for windows the name is 'nt'
+        if name == 'nt':
+            _ = system('cls')
+
+        # and for mac and linux, the os.name is 'posix'
+        else:
+            _ = system('clear')
+    clear()
+    play_game()
+
+
+
