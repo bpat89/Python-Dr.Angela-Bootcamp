@@ -5,11 +5,14 @@ EASY_LEVEL = 10
 HARD_LEVEL = 5
 
 # Function to check user's answer against actual number.
-def check_answer(guess, answer):
+def check_answer(guess, answer,attempts):
+    """ Checks the guess against answer and returns the number of attempts remaining. """
     if guess > answer:
         print("Too High")
+        return attempts -1
     elif guess < answer:
         print("Too Low")
+        return attempts - 1
     else:
         print(f"You got it right, the correct answer is {answer} ")
 
@@ -32,12 +35,12 @@ def game():
 
     # Let the user guess the number.
     attempts = set_difficulty()
-    print(f"your remaining attempts are {attempts}")
     # Repeat the guessing if they get it wrong.
     guess = 0
     while guess != answer:
+        print(f"your remaining attempts are {attempts}")
         guess = int(input("Make a Guess. : "))
-        check_answer(guess, answer)
+        attempts = check_answer(guess, answer, attempts)
 
 
     # Track the number of turns and reduce it by 1 if they chose wrong.
