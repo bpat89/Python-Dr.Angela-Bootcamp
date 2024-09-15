@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - The Quiz Project &amp; the Benefits of OOP: Creating the List of Questions Object from the Data">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - The Quiz Project &amp; the Benefits of OOP: The QuizBrain and the next_question() Method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726408231794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Intermediate - The Quiz Project &amp; the Benefits of OOP: The QuizBrain and the next_question() Method">
+      <option name="closed" value="true" />
+      <created>1726410486809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726410486809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intermediate - The Quiz Project &amp; the Benefits of OOP: 156. Working with Attributes, Class Constructors and the __init__() Function" />
     <MESSAGE value="Intermediate - The Quiz Project &amp; the Benefits of OOP: Creating the List of Questions Object from the Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - The Quiz Project &amp; the Benefits of OOP: Creating the List of Questions Object from the Data" />
+    <MESSAGE value="Intermediate - The Quiz Project &amp; the Benefits of OOP: The QuizBrain and the next_question() Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - The Quiz Project &amp; the Benefits of OOP: The QuizBrain and the next_question() Method" />
   </component>
 </project>
