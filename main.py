@@ -1,17 +1,9 @@
-# import turtle
-# tim = turtle.Turtle()
-#
-# from turtle import Turtle
-#
-# tim = Turtle()
-# tom = Turtle()
-# terry = Turtle()
-
-# from turtle import *
-# from random import *
-
 import turtle as t
+
 tim = t.Turtle()
 
-import heroes
-print(heroes.gen())
+for _ in range (15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()

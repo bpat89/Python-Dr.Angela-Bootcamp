@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 1 - Draw a Square">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726638882012</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases">
+      <option name="closed" value="true" />
+      <created>1726643380491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726643380491</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +133,7 @@
     <MESSAGE value="Intermediate - The Quiz Project &amp; the Benefits of OOP: Use Open Trivia DB to Get New Questions" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Understanding Turtle Graphics and How to use the Documentation" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 1 - Draw a Square" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 1 - Draw a Square" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases" />
   </component>
 </project>
