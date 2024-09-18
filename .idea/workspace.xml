@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726643763003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes">
+      <option name="closed" value="true" />
+      <created>1726660677315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726660677315</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +151,7 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 1 - Draw a Square" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 2 - Draw a Dashed Line" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 2 - Draw a Dashed Line" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
   </component>
 </project>
