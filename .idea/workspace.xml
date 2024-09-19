@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -145,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726663805179</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours">
+      <option name="closed" value="true" />
+      <created>1726725220493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726725220493</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +169,18 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 2 - Draw a Dashed Line" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
