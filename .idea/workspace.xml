@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726660677315</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk">
+      <option name="closed" value="true" />
+      <created>1726663805179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663805179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +160,7 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Importing Modules, Installing Packages and Working with Aliases" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 2 - Draw a Dashed Line" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
   </component>
 </project>
