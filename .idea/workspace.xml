@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours">
-      <change afterPath="$PROJECT_DIR$/hirst image.jpg" afterDir="false" />
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726725220493</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images">
+      <option name="closed" value="true" />
+      <created>1726847136549</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726847136549</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +189,7 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 3 - Drawing Different Shapes" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images" />
   </component>
 </project>
