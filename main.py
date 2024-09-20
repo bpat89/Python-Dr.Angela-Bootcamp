@@ -1,28 +1,15 @@
-import turtle as t
-import random
-
-tim = t.Turtle()
-t.colormode(255)
-
-def random_color():
-    r = random.randint(0, 255)
-    g = random.randint(0, 255)
-    b = random.randint(0, 255)
-    color = (r, g, b)
-    return color
+# import colorgram
+#
+# rgb_colors = []
+# colors = colorgram.extract("hirst image.jpg", 30)
+# for color in colors:
+#     r = color.rgb.r
+#     g = color.rgb.g
+#     b = color.rgb.b
+#     new_color = (r, g, b)
+#     rgb_colors.append(new_color)
 
 
-# colors = ["red", "orange red", "green yellow", "gold", "medium spring green", "blue", "goldenrod"]
+color_list = [(252, 252, 252), (238, 248, 243), (251, 242, 246), (226, 237, 246), (30, 106, 145), (229, 153, 80), (15, 169, 207), (148, 79, 30), (6, 57, 97), (31, 134, 77), (214, 133, 162), (138, 32, 51), (205, 156, 22), (118, 172, 194), (213, 93, 124), (235, 211, 85), (6, 103, 66), (145, 185, 167), (216, 209, 11), (3, 69, 136), (15, 49, 43), (76, 83, 23), (243, 168, 151), (134, 59, 83), (53, 60, 15), (223, 170, 191), (230, 100, 40), (1, 90, 120), (71, 157, 105), (164, 29, 25)]
 
-tim.speed("fastest")
-def draw_spirograph(size_of_gap):
-    for _ in range(int(360/size_of_gap)):
-        tim.color(random_color())
-        tim.circle(100)
-        tim.setheading(tim.heading() + size_of_gap)
-
-draw_spirograph(2)
-
-
-screen = t.Screen()
-screen.exitonclick()
+print(rgb_colors)
