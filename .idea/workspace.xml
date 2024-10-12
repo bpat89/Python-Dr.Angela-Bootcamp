@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hirst image.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,15 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python\Python Projects by Dr. Angela Yu" />
@@ -171,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726847136549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots">
+      <option name="closed" value="true" />
+      <created>1726850472621</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726850472621</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +204,7 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Turtle Challenge 4 - Generate a Random Walk" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images" />
+    <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots" />
   </component>
 </project>
