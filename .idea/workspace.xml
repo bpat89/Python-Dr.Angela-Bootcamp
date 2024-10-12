@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots">
+    <list default="true" id="fd1be632-72dd-4877-ba76-390000b6645f" name="Changes" comment="Intermediate - Instances, State and Higher Order Function - Python Higher Order Function &amp; Event Listeners">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hirst image.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726850472621</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Intermediate - Instances, State and Higher Order Function - Python Higher Order Function &amp; Event Listeners">
+      <option name="closed" value="true" />
+      <created>1728749054613</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728749054613</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +212,18 @@
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - Python Tuples and How to Generate Random RGB Colours" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 1 - How to Extract RGB Values from Images" />
     <MESSAGE value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Turtle &amp; the Graphic User Interface(GUI) - The Hirst Painting Project Part 2 - Drawing the Dots" />
+    <MESSAGE value="Intermediate - Instances, State and Higher Order Function - Python Higher Order Function &amp; Event Listeners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate - Instances, State and Higher Order Function - Python Higher Order Function &amp; Event Listeners" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
